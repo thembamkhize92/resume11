@@ -1,0 +1,116 @@
+html,
+            body {
+                font-family: Roboto, sans-serif;
+                margin: 0;
+                color: black;
+                scroll-behavior: smooth;
+            }
+            
+            .header {
+                text-align: center;
+                background-color:#b3b3b3;
+                padding: 10px;
+                background-image: url('../Images/background-image.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .wrapper {
+                display: inline-flex;
+                width: 100%;
+                background-color: whitesmoke;
+            }
+
+            .container {
+                width: 100%;
+                background-color: rgb(149, 200, 209);
+            }
+            
+           .nav {
+               background-color: rgb(46, 46, 51);
+           }
+            
+            .content-info {
+                width: 200%;
+                margin-left: 5px; }
+            
+            .menu {
+                    padding: 10px;
+            }
+            
+            .profile-img {
+                    padding: 5px;
+                    padding-right: 20px;
+                    border-radius: 50%;
+                    margin-left: 25%;
+                    margin-right: 25%;
+            }
+            
+            li.menu-list {
+                padding: 10px;
+                text-align: center;
+            }
+            
+            .list   {
+                        list-style-type: none;
+                        margin: 0;
+                        margin-bottom: 15px;
+                    }
+            
+            ul.list li:first-child {
+                    font-weight: 600;
+                
+            }
+            
+            a.links:hover {
+                    color: gray;
+                        }   
+                        
+            .links {
+                        font-weight: 600;
+                        color: black;
+                        text-decoration: none;
+                    }
+                    section#interest-section, #skills-section   {
+                        float: left;
+                        width: 30%;
+                    }
+            section#experience-section {
+                    clear: both;
+                    }   
+        .inline-flex {
+                        display: inline-flex
+                }
+.full-width {
+                width: 100%;
+}
+
+span.min-width {
+    min-width: 20%;
+}
+            .footer {
+                background-color: #b3b3b3;
+                padding: 10px;
+                text-align: center;
+                    }
+                    @media only screen and (min-width: 500px) {
+                        .wrapper {
+                            background-color: rgb(137, 146, 148);
+                            font-size: 1.6;
+                        }
+                    }
+
+                    @media only screen and (min-width: 1000px) {
+                        .wrapper {
+                            background-color: rgb(211, 228, 192);
+                            font-size: 2.0;
+                        }
+                    }
+
+                    @media only screen and (min-width: 1500px) {
+                        .wrapper {
+                            background-color: rgb(176, 183, 190);
+                            font-size: 2.5;
+                        }
+                    }
